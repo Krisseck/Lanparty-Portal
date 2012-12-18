@@ -1,0 +1,213 @@
+body {
+	background: black;
+	color: #333;
+}
+
+h1 {
+	margin: 0 0 20px 20px;
+}
+
+a {
+	color: #6E0202;
+}
+
+.hidden {
+	display: none;
+}
+
+#header {
+	margin: 0 auto;
+}
+
+#logo img {
+	margin: 30px 0 30px 80px;
+}
+
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#content {
+	background: white;
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 20px 0 0;
+}
+
+#login-container {
+	margin: 30px 0 0 0;
+	text-align: right;
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#schedule li {
+	margin: 5px 0;
+}
+
+#schedule .ongoing a {
+	font-weight: bold;
+}
+
+#navigation {
+	margin-bottom: 0;
+}
+
+#navigation a {
+	color: white;
+}
+
+#navigation .active a {
+	color: #333;
+}
+
+#navigation a:hover {
+	color: #666;
+}
+
+#chat {
+	height: 500px;
+	border: 0;
+}
+
+#admin-logo {
+	position: absolute;
+	top: 8px;
+	right: 195px;
+}
+
+.seat-table {
+	margin: 40px;
+	width: 100px;
+	float: left;
+}
+
+.seat {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	color: #ddd;
+	background: #595;
+}
+
+.seat:hover {
+	color: #333;
+	background: #383;
+}
+
+.seat.arrived {
+	color: #ddf;
+	background: #d80;
+}
+
+.seat.arrived:hover {
+	color: #333;
+	background: #d60;
+}
+
+.seat.chosen {
+	color: #ddd;
+	background: #44e;
+}
+
+.seat.chosen:hover{
+	background: #22c;
+	color: #333;
+}
+
+#tooltip{
+	position:absolute;
+	-webkit-box-shadow: 0px 1px 4px #1c1c1c;
+	-moz-box-shadow: 0px 1px 4px #1c1c1c;
+	box-shadow: 0px 1px 4px #1c1c1c;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: white;
+	color:#333;
+	display:none;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0;
+}	
+
+#pizza-header {
+	text-align: center;
+}
+
+.pizza {
+	margin: 20px 0 0 0;
+}
+
+#pizzat .number {
+	font-weight: bold;
+}
+
+#pizzat .title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#pizzat .desc {
+	font-style: italic;
+}
+
+.participate,
+.binarybeast-iframe {
+	margin-top: 1em;
+}
+
+#url {
+	margin: 0;
+}
+
+#result {
+	width: 500px;
+	height: 180px;
+	background: #f6f6f6;
+	border: 1px solid #bbb;
+	margin: 20px 0 0 0;
+	padding: 15px;
+}
+
+#result img {
+	height: 180px;
+	width: 180px;
+}
+
+#coverart {
+	float: left;
+	display: block;
+}
+
+#title {
+	float: right;
+	width: 300px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#album {
+	float: right;
+	width: 300px;
+	color: #444;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#artist {
+	float: right;
+	width: 300px;
+	font-size: 24px;
+}
+
+#send-spotify, #send {
+	margin: 10px 0;
+	float: right;
+}

@@ -1,0 +1,1 @@
+<li><span class="label label-info"><?php echo $display_name; ?></span></li>

@@ -1,0 +1,1 @@
+<li><?php echo $time; ?> - <a href='<?php echo base_url('events/'.$id);?>'><?php echo $title; ?></a></li>

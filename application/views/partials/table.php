@@ -1,0 +1,1 @@
+<div class='seat-table' id="table-<?php echo $table; ?>"><?php echo $seats; ?></div>

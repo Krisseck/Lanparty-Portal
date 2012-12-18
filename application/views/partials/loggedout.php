@@ -1,0 +1,2 @@
+<a href='<?php echo base_url('login');?>' class='btn btn-small'><i class='icon-key'></i> <?php echo lang("base_login"); ?></a><br/>
+<a href='<?php echo base_url('register');?>' class='btn btn-small'><?php echo lang("base_register"); ?></a>
