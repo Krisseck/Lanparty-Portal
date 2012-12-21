@@ -1,7 +1,9 @@
 public_html/index.php
 public_html/.htaccess
+public_html/css/additional.css
 application/config/Binarybeast.php
 application/config/config.php
 application/config/database.php
 application/config/lastfm.php
 logs
+

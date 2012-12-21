@@ -7,6 +7,7 @@
 		<?php echo link_tag("css/bootstrap.min.css"); ?>
 		<?php echo link_tag("css/font-awesome.css"); ?>
 		<?php echo link_tag("css/style.css"); ?>
+		<?php echo link_tag("css/additional.css"); ?>
 		<meta charset="utf-8">
 		<?php echo $template['metadata']; ?>
 	</head>
