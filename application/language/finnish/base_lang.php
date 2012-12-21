@@ -49,3 +49,7 @@ $lang['base_participants'] = "Osallistujat";
 $lang['base_participate'] = "Osallistu";
 
 $lang['base_seats'] = "Paikkakartta";
+
+$lang['base_now_playing'] = "Nyt soi";
+$lang['base_nothing_is_playing'] = "Mikään ei soi :(";
+$lang['base_recently_played'] = "Äskettäin soitetut";

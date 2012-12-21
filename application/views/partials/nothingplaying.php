@@ -1,0 +1,1 @@
+<p><?php echo lang("base_nothing_is_playing"); ?></p>

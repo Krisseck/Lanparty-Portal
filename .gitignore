@@ -3,4 +3,5 @@ public_html/.htaccess
 application/config/Binarybeast.php
 application/config/config.php
 application/config/database.php
+application/config/lastfm.php
 logs

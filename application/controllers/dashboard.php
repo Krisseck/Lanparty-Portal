@@ -74,6 +74,44 @@ class Dashboard extends CI_Controller {
 		)));
 
 		$this->template->append_metadata('<script src="/js/dashboard.js"></script>');
+
+		$this->load->library("lastfm");
+
+		$this->config->load("lastfm");
+
+		$lastfm_tracks = $this->lastfm->call("user.getRecentTracks",array("user"=>$this->config->item("lastfm_user_account"),"limit"=>3));
+
+		if(isset($lastfm_tracks->recenttracks->track[0]->{"@attr"}->nowplaying)) {
+
+			$this->template->inject_partial("nowplaying",$this->load->view("partials/nowplaying",array(
+				"artist" => $lastfm_tracks->recenttracks->track[0]->artist->{"#text"},
+				"title" => $lastfm_tracks->recenttracks->track[0]->name,
+				"album" => $lastfm_tracks->recenttracks->track[0]->album->{"#text"},
+				"cover" => $lastfm_tracks->recenttracks->track[0]->image[1]->{"#text"}
+			),true));
+
+			unset($lastfm_tracks->recenttracks->track[0]);
+
+		} else {
+
+			$this->template->inject_partial("nowplaying",$this->load->view("partials/nothingplaying",array(),true));
+
+		}
+
+		$playeddata = "";
+
+		foreach($lastfm_tracks->recenttracks->track as $track) {
+
+			$playeddata .= $this->load->view("partials/recentlyplayed",array(
+				"artist" => $track->artist->{"#text"},
+				"title" => $track->name,
+				"album" => $track->album->{"#text"},
+				"cover" => $track->image[1]->{"#text"}
+			),true);
+
+		} 
+
+		$this->template->inject_partial("recentlyplayed",$playeddata);
 		
 		$this->template
 			->title($this->lang->line("dashboard"))

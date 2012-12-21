@@ -44,6 +44,10 @@ a {
 	line-height: 30px;
 }
 
+#schedule h2 {
+	margin-top: 0;
+}
+
 #schedule li {
 	margin: 5px 0;
 }
@@ -210,4 +214,17 @@ a {
 #send-spotify, #send {
 	margin: 10px 0;
 	float: right;
+}
+
+#nowplaying h5 {
+	margin: 0.2em 0;
+}
+
+.song .cover {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.song {
+	min-height: 5em;
 }

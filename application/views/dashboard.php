@@ -4,12 +4,29 @@
 
 	<a data-toggle="modal" data-target="#song-request-modal" class="btn btn-success" id="send-song-request"><i class="icon-white icon-music"></i> <?php echo lang("base_send_song_request"); ?></a>
 
+	<br/>
+	<br/>
+
+	<div id="player">
+		<div id="nowplaying">
+			<h3><?php echo lang("base_now_playing"); ?></h3>
+			<?php echo $template['partials']['nowplaying']; ?>
+		</div>
+		<div id="recentlyplayed">
+			<h3><?php echo lang("base_recently_played"); ?></h3>
+			<?php echo $template['partials']['recentlyplayed']; ?>
+		</div>
+	</div>
+
 </div>
 
-<div class="span3" id="schedule">
-	<h2><?php echo lang("base_schedule"); ?></h2>
+<div class="span3">
 
-	<?php echo $template['partials']['schedule']; ?>
+	<div id="schedule">
+		<h3><?php echo lang("base_schedule"); ?></h3>
+
+		<?php echo $template['partials']['schedule']; ?>
+	</div>
 
 </div>
 

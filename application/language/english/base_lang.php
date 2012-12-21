@@ -49,3 +49,7 @@ $lang['base_participants'] = "Participants";
 $lang['base_participate'] = "Participate";
 
 $lang['base_seats'] = "Seatmap";
+
+$lang['base_now_playing'] = "Now playing";
+$lang['base_nothing_is_playing'] = "Nothing is playing :(";
+$lang['base_recently_played'] = "Recently played";
