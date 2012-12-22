@@ -3,7 +3,7 @@ Lanparty Portal
 
 **Lanparty Intranet, based on CodeIgniter**
 
-** WARNING: This is still considered Alpha! Do NOT install this if you are not proficient with LAMP/WAMP etc and if you are not comfortable working with MySQL interfaces such as PHPMyAdmin!**
+**WARNING: This is still considered Alpha! Do NOT install this if you are not proficient with LAMP/WAMP etc and if you are not comfortable working with MySQL interfaces such as PHPMyAdmin!**
 
 Demo: <http://demointra.urbanlan.fi> username: admin, password: demo
 
