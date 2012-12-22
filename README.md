@@ -104,10 +104,8 @@ TODO
 ----
 
 * **Much better installation**
+* Admin-interface for everything
 * Better documentation
 * Feature showcase
 * Pizza ordering system
 * Better usage of BinaryBeast API (tournament registration, participation etc)
-
-
-
