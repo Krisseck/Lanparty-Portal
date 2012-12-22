@@ -23,11 +23,11 @@ $(document).ready(function() {
 
 		$("#seats .seat.arrived").removeClass("chosen");
 
-		var search = $(this).find("input").val();
+		var search = new RegExp($(this).find("input").val(),"i");
 
 		$("#seats .seat.arrived").each(function() {
 
-			if($.trim($(this).find(".username").text()).indexOf(search) != -1 || $.trim($(this).find(".ip").text()).indexOf(search) != -1) {
+			if( search.test($.trim($(this).find(".username").text())) || search.test($.trim($(this).find(".ip").text())) ) {
 
 				$(this).addClass("chosen");
 

@@ -116,11 +116,18 @@ a {
 
 .seat.chosen {
 	color: #ddd;
-	background: #44e;
+	background: #A33;
+	transform: scale(1.15,1.15);
+	-webkit-transform: scale(1.15,1.15);
+	-moz-transform: scale(1.15,1.15);
+	-o-transform: scale(1.15,1.15);
+	-ms-transform: scale(1.15,1.15);
+	-webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
 }
 
 .seat.chosen:hover{
-	background: #22c;
+	background: #922;
 	color: #333;
 }
 

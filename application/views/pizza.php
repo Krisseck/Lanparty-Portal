@@ -26,7 +26,7 @@
 
 	<div class='pizza clearfix'>
 		<div class='span1 number'>12.</div>
-		<div class='span11 title'>Kebab Without Frenc Fries</div>
+		<div class='span11 title'>Kebab Without French Fries</div>
 		<div class='span11 offset1 desc'>Because why not</div>
 	</div>
 
@@ -34,3 +34,5 @@
 
 <br/>
 <br/>
+
+<h4 class="span12">Pizzas can be order at the Info-Desk!</h4>
