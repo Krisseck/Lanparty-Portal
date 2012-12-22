@@ -31,6 +31,14 @@ Technologies used
 * [Elliot Haughin's codeigniter-lastfm (modified)](https://github.com/programmieraffe/codeigniter-lastfm)
 * [BinaryBeast API (custom library)](http://binarybeast.com/api)
 
+Server Requirements
+-------------------
+
+* Apache 2.2.X
+* PHP >= 5.3
+* MySQL 14.X
+* CURL
+
 Installation
 ------------
 
