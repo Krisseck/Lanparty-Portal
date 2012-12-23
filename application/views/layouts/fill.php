@@ -10,7 +10,7 @@
 		}
 
 		.ticket {
-			float: left;
+			display: inline-block;
 			width: 23%;
 			margin: 1%;
 			text-align: center;
@@ -20,6 +20,10 @@
 
 		.seat {
 			font-size: 2em;
+		}
+
+		.ticket.break {
+			page-break-after: always;
 		}
 
 	</style>

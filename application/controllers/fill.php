@@ -17,7 +17,17 @@ class Fill extends CI_Controller {
 
 		$tickets = "";
 
+		$i=0;
+
 		foreach($users as $user) {
+
+			$i++;
+
+			if($i%20==0) {
+				$user['break'] = true;
+			} else {
+				$user['break'] = false;
+			}
 
 			$tickets .= $this->load->view("partials/ticket",$user,true);
 
